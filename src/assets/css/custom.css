@@ -1,0 +1,10 @@
+/*handling images*/
+.img-responsive{
+  max-width: 100%;
+  height: auto
+}
+
+.img-fit-box{
+  width: 70%;
+  height: auto;
+}
