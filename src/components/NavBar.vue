@@ -4,18 +4,18 @@
 			<img src="@/assets/img/logo.svg" alt="Kamal Network Logo">
 		</figure>
 
-		<ul class="flex items-center">
-			<li class="px-2">Home</li>
-			<li class="px-2">About Us</li>
-			<li class="px-2">Portfolio</li>
-			<li class="px-2">Contact</li>
-		</ul>
+		<div class="flex items-center">
+			<a href="#" class="px-2">Home</a>
+			<a href="#"  class="px-2">About Us</a>
+			<a href="#"  class="px-2">Portfolio</a>
+			<a href="#"  class="px-2">Get A Quote</a>
+		</div>
 	</nav>
 </template>
 
 <script>
 	export default {
-
+		name: 'NavBar',
 
 	};
 </script>

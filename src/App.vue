@@ -3,8 +3,9 @@
     <div class="main-content">
     <navbar />
       <section>
-        <About  class="my-4"/>
-        <Portfolio class="my-4" />
+        <About  class="my-4 " id="'#about-us'"/>
+        <Portfolio class="my-4 mt-40" id="'#portfolio'"/>
+        <Contact class="my-4 mt-40" id="'#contact'" />
       </section>
     </div>
 
@@ -17,10 +18,11 @@
 
 import About from './components/About.vue';
 import Portfolio from './components/Portfolio.vue';
+import Contact from './components/Contact.vue';
 
 export default {
   name: 'App',
-  components: {About, Portfolio},
+  components: {About, Portfolio, Contact},
 
   
 };
@@ -30,52 +32,6 @@ export default {
   @import './assets/css/main.css';
   @import './assets/css/custom.css';
 
-:root{
-  --yellow: #FEC34F;
-  --blue: #1078A6;
-  --blue-light: #0F78A5;
-}
-  
-#app {
-  font-family: Inter,Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  color: #2c3e50;
-}
-
-#wrapper{
-  display: flex;
-    min-height: 100vh;
-
-  flex-direction: column;
-}
-
-.section__title{
-  color: #0F78A5;
-}
-
-.section__title--sub{
-  color: #1078A6;
-}
-
-
-.section__title--yellow{
-  color: #FEC34F;
-}
-.main-content{
-  flex-grow: 1;
-}
-
-.footer{
-  height: auto;
-  background : var(--blue);
-  color: white;
-
-}
-
-.card{
-  background:  var(--yellow);
-}
 
 
 </style>

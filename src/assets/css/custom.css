@@ -1,3 +1,51 @@
+:root{
+  --yellow: #FEC34F;
+  --blue: #1078A6;
+  --blue-light: #0F78A5;
+}
+  
+#app {
+  font-family: Inter,Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+}
+
+#wrapper{
+  display: flex;
+    min-height: 100vh;
+
+  flex-direction: column;
+}
+
+.section__title{
+  color: #0F78A5;
+}
+
+.section__title--sub{
+  color: #1078A6;
+}
+
+
+.section__title--yellow{
+  color: #FEC34F;
+}
+.main-content{
+  flex-grow: 1;
+}
+
+.footer{
+  height: auto;
+  background : var(--blue);
+  color: white;
+
+}
+
+.card{
+  background:  var(--yellow);
+}
+
+
 /*handling images*/
 .img-responsive{
   max-width: 100%;
@@ -7,4 +55,9 @@
 .img-fit-box{
   width: 70%;
   height: auto;
+}
+
+
+html{
+  scroll-behavior: smooth;
 }
