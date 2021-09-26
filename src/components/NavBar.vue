@@ -5,10 +5,10 @@
 		</figure>
 
 		<div class="flex items-center">
-			<a href="#" class="px-2">Home</a>
-			<a href="#"  class="px-2">About Us</a>
-			<a href="#"  class="px-2">Portfolio</a>
-			<a href="#"  class="px-2">Get A Quote</a>
+			<router-link to="/" class="px-2">Home</router-link>
+			<router-link to="/About"  class="px-2">About Us</router-link>
+			<router-link to="/Portfolio"  class="px-2">Portfolio</router-link>
+			<router-link to="/Quote"  class="px-2">Get A Quote</router-link>
 		</div>
 	</nav>
 </template>
