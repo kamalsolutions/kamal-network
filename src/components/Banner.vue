@@ -1,5 +1,5 @@
 <template>
-	<div class="banner">
+	<div class="banner" id="banner">
 		<slot></slot>
 	</div>
 </template>

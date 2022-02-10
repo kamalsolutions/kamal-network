@@ -1,9 +1,9 @@
 <template>
-    <div class="grid lg:grid-cols-2 gap-10 p-10">
+    <div class="grid lg:grid-cols-2 gap-10 p-10" id="contact">
         <div class="lg:p-10 p-4">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4087.035826075932!2d-0.10862073062751859!3d5.61332243228897!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf85c5eb39637b%3A0x6051cb16a236f8fe!2sKamal%20Network!5e0!3m2!1sen!2sgh!4v1627129917912!5m2!1sen!2sgh" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
-        <div class="lg:mx-5">
+        <div class="lg:mx-5 items-center align-center  lg:my-auto">
             <h3 class="font-bold text-4xl my-10 section__title">Get in Touch</h3>
             <div class="flex my-4"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 " viewBox="0 0 20 20" fill="currentColor">
                     <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd" />

@@ -1,5 +1,5 @@
 <template>
-	<div class="w-full portfolio py-10 lg:py-20">
+	<div class="w-full portfolio py-10 lg:py-20" id="Portfolio">
 		<h3 class="font-bold text-4xl text-center section__title" style="color: white">Portfolio</h3>
 
 		<section class="grid lg:grid-cols-3 gap-10 p-4 px-6 mt-5">

@@ -1,5 +1,5 @@
 <template>
-    <section>
+    <section id="about-us">
         <banner class="-mt-4 lg:flex lg:justify-end">
 
             <div class="lg:p-20  lg:w-1/2">
@@ -21,48 +21,14 @@
                 </div>
             </div>
         </div>
-         <modal v-if="moreabout">
-                        <div style="background-color: rgba(0,0,0,0.5);" class="fixed top-0 left-0 w-full lg:h-full flex items-center shadow-lg overflow-y-auto" x-show="isOpen">
-                            <div class="container mx-auto lg:px-32 rounded-lg overflow-y-hidden">
-                                <div class="bg-gray-100 rounded">
-                                    <div class="flex justify-end pr-4 pt-2">
-                                        <button class="text-3xl leading-none hover:text-gray-300 close-modal" @click='closePopAbout'>&times;</button>
-                                    </div>
-                                    <div class="modal-body px-8 py-8">
-                                        <section class="grid lg:grid-cols-3 gap-2">
-                                            <section class="my-4">
-                                                <h4 class="text-2xl text-center font-semibold section__title--sub">Who we are</h4>
-                                                <p class="my-4 ">
-                                                    We are a Ghanaian startup with innovative technological ideas for all business sectors.
-                                                </p>
-                                            </section>
-                                            <section class="my-4">
-                                                <h4 class="text-2xl text-center font-semibold section__title--sub">Our Vision</h4>
-                                                <p class="my-4 ">
-                                                    Our VISION is to make every client’s ideas come to life.
-                                                </p>
-                                            </section>
-                                            <section class="my-4">
-                                                <h4 class="text-2xl text-center font-semibold section__title--sub">Our Mission</h4>
-                                                <p class="my-4 ">
-                                                    At Kamal Network, we believe in service with integrity, in this wise, we aim to create well -tailored applications for our clients while offering them the best customer service and support.
-                                                </p>
-                                            </section>
-                                        </section>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </modal>
     </section>
 </template>
 <script>
-import Modal from './Modal.vue';
 import Banner from './Banner.vue';
 
 export default {
     name: 'About',
-    components: { Modal, Banner },
+    components: { Banner },
     data() {
         return {
             moreabout: false,
