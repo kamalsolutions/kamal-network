@@ -13,7 +13,7 @@
                     <p class="text-2xl">
                         We are a Ghanaian startup with innovative technological ideas for all business sectors.
                     </p>
-                    <button type="role" href="#" class="mt-10 w-2/5 flex mx-auto items-center self-center text-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white  md:text-lg ring-0 " @click.prevent="popupAbout" style="background:#1078A6">More About</button >
+                    <a type="role" href="#about" class="mt-10 w-2/5 flex mx-auto items-center self-center text-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white  md:text-lg ring-0 " style="background:#1078A6">More About</a >
                    
                 </div>
                 <div class="w-full lg:w-1/2">

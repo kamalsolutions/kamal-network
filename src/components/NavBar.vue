@@ -6,9 +6,9 @@
 
 		<div class="flex items-center">
 			<a href="#" class="px-2">Home</a>
-			<a href="#"  class="px-2">About Us</a>
-			<a href="#"  class="px-2">Portfolio</a>
-			<a href="#"  class="px-2">Get A Quote</a>
+			<a href="#about"  class="px-2">About Us</a>
+			<a href="#portfolio"  class="px-2">Portfolio</a>
+			<a href="#contact"  class="px-2">Let's Talk</a>
 		</div>
 	</nav>
 </template>
